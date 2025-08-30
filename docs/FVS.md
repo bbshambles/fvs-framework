@@ -48,8 +48,8 @@ high: hold field; deep-dive first; return bounded options; avoid single collapse
     {"hypothesis":"...", "weight":0.07, "why_excluded":"policy risk"}
   ]
 }
+```
 
-###
 @startuml
 title FVS inside a reasoning loop
 
