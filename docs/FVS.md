@@ -35,7 +35,7 @@ high: hold field; deep-dive first; return bounded options; avoid single collapse
 
 ## Output shape (example)
 ```json
-{
+[{
   "answer": "...",
   "confidence": 0.82,
   "vector": {
@@ -47,9 +47,8 @@ high: hold field; deep-dive first; return bounded options; avoid single collapse
     {"hypothesis":"...", "weight":0.11, "why_excluded":"lower evidence"},
     {"hypothesis":"...", "weight":0.07, "why_excluded":"policy risk"}
   ]
-}
+}]
 
-Diagram (sequence)
 
 @startuml
 title FVS inside a reasoning loop
